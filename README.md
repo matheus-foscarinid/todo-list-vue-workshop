@@ -2,9 +2,7 @@
 
 Projeto de lista de tarefas feito com Vue 3 e Vite, com o objetivo de iniciar o aprendizado de Vue 3. O projeto foi criado com o objetivo de ser utilizado para o Workshop realizado na Universidade Feevale.
 
-## Setup de IDE Recomendado
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+**Setup de IDE Recomendado**: [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
 <br />
 <br />
