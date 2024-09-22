@@ -1,29 +1,32 @@
-# Lista de Tarefas
+# Lista de Tarefas 📝
 
 Projeto de lista de tarefas feito com Vue 3 e Vite, com o objetivo de iniciar o aprendizado de Vue 3. O projeto foi criado com o objetivo de ser utilizado para o Workshop realizado na Universidade Feevale.
 
 ## Setup de IDE Recomendado
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+<br />
+<br />
 
 ## Setup para começar a criar esse projeto
 
 ### Instale o NodeJS
  - [NodeJS](https://nodejs.org/)
 
-### Crie um novo projeto usando Vue
+### Crie um novo projeto usando Vue e vamos ao código
 ```sh
 npm create vue@latest
 ```
-
-### Agora, vamos ao código!
-
+<br />
+<br />
 
 ## Setup para rodar o projeto pronto
 
 ### Primeiro clone o repositório
 ```sh
 git clone ...
+```
 
 
 ### Instale as dependências
