@@ -20,8 +20,24 @@ npm -v
 ## Como criar o projeto do zero
 - Primero, crie um novo projeto usando Vue
 ```sh
-npm create vue@latest
+# evita as perguntas de configuração
+npm create vue@latest -- --default
 ```
+- Navegue até a pasta do projeto
+```sh
+cd nome-do-projeto
+```
+
+- Instale as dependências
+```sh
+npm install
+```
+
+- Inicie o servidor de desenvolvimento com hot-reload
+```sh
+npm run dev
+```
+
 - Vamos ao código! Dica: mantenha a [documentação](https://vuejs.org/) aberta para consulta
 <br />
 <br />
