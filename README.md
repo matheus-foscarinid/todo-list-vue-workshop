@@ -7,16 +7,22 @@ Projeto de lista de tarefas feito com Vue 3 e Vite, com o objetivo de iniciar o 
 <br />
 <br />
 
-## Setup para começar a criar esse projeto
+## Instalação para rodar o projeto
+ - Instale o [Git](https://git-scm.com/downloads), caso não tenha
+ - Instale o [NodeJS](https://nodejs.org/)
+ - Certifique-se de que o NodeJS e o NPM foram instalados corretamente
+```sh
+node -v
+npm -v
+```
+- Tudo pronto para começar a desenvolver! 🚀
 
-### Instale o NodeJS
- - [NodeJS](https://nodejs.org/)
- - Mantenha a [documentação](https://vuejs.org/) aberta para consulta
-
-### Crie um novo projeto usando Vue e vamos ao código
+## Como criar o projeto do zero
+- Primero, crie um novo projeto usando Vue
 ```sh
 npm create vue@latest
 ```
+- Vamos ao código! Dica: mantenha a [documentação](https://vuejs.org/) aberta para consulta
 <br />
 <br />
 
@@ -43,8 +49,11 @@ npm run dev
 - Criação de projeto
 - Como o código é executado no navegador
 - Instalação do Bootstrap
+- Como funciona HTML e CSS
 - Como funciona as componentizações
 - v-bind
+- Adicionando componentes simples
+- O que é um objeto Javascript
 - v-for
 - v-model
 - v-on (ou @) para eventos
