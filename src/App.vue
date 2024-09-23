@@ -2,7 +2,7 @@
   <div id="todo-list">
     <div class="container">
       <div class="row bg-white mt-5 p-3 rounded">
-        <h3>TODO List do {{name}}</h3>
+        <TodoTitle />
         <hr>
 
         <div class="d-flex justify-content-between gap-1 mb-3">
@@ -42,6 +42,22 @@
             </div>
           </div>
         </div>
+
+        <div class="d-flex gap-2">
+          <button 
+            class="btn btn-danger mt-3"
+            @click="cleanTasks"
+          >
+            Limpar lista
+          </button>
+
+          <button 
+            class="btn btn-warning mt-3"
+            @click="cleanFinishedTasks"
+          >
+            Remover tarefas concluídas
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -49,6 +65,8 @@
 
 <script setup>
 import { ref } from 'vue';
+
+import TodoTitle from './components/TodoTitle.vue';
 
 const name = ref('Matheus');
 const tasks = ref([
@@ -60,6 +78,14 @@ const newTask = ref('');
 const addTask = () => {
   tasks.value.push({ title: newTask.value, done: false });
   newTask.value = '';
+};
+
+const cleanTasks = () => {
+  tasks.value = [];
+};
+
+const cleanFinishedTasks = () => {
+  tasks.value = tasks.value.filter(task => !task.done);
 };
 
 </script>
