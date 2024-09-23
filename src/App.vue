@@ -11,6 +11,7 @@
             type="text" 
             class="form-control" 
             placeholder="Nova tarefa"
+            @keyup.enter="addTask"
           >
 
           <button 
